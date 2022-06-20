@@ -13,8 +13,12 @@ import java.util.List;
 @RequestMapping("/api/v1/")
 public class EmployeeController {
 
-    @Autowired
+
     private EmployeeRepository employeeRepository;
+    @Autowired
+    public void setEmployeeRepository(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
+    }
 
     // get all employees
     @GetMapping("/employees")
