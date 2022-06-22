@@ -1,11 +1,11 @@
-package controller;
+package com.example.springbootbackend.controller;
 
-import model.Employee;
+import com.example.springbootbackend.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import repository.EmployeeRepository;
+import com.example.springbootbackend.repository.EmployeeRepository;
 
 import java.util.List;
 

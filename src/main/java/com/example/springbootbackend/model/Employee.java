@@ -1,4 +1,4 @@
-package model;
+package com.example.springbootbackend.model;
 
 import javax.persistence.*;
 
