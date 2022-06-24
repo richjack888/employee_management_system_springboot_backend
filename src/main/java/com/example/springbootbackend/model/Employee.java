@@ -13,15 +13,15 @@ public class Employee {
 
     private String lastName;
 
-    private String email;
+    private String emailId;
 
     public Employee() {
     }
 
-    public Employee(String firstName, String lastName, String email) {
+    public Employee(String firstName, String lastName, String emailId) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.email = email;
+        this.emailId = emailId;
     }
 
     public long getId() {
@@ -48,11 +48,11 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    public String getEmail() {
-        return email;
+    public String getemailId() {
+        return emailId;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setemailId(String emailId) {
+        this.emailId = emailId;
     }
 }
