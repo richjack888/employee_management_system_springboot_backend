@@ -4,6 +4,8 @@ import com.example.springbootbackend.exception.ResourceNotFoundException;
 import com.example.springbootbackend.model.Employee;
 import com.example.springbootbackend.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -59,7 +61,6 @@ public class EmployeeController {
 
         return employeeRepository.save(employee);
     }
-//
 
 ////     update employee by id - version 2
 //    @PutMapping("/employees/{id}")
@@ -75,5 +76,27 @@ public class EmployeeController {
 //
 //        return ResponseEntity.ok(updateEmployee);
 //    }
+
+//    //     delete employees by id - version 1
+//    @DeleteMapping("/employees/{id}")
+//    public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id) {
+//        Employee employee = employeeRepository.findById(id)
+//                .orElseThrow(() -> new ResourceNotFoundException("Employee ID not found:" + id));
+//
+//        employeeRepository.delete(employee);
+//        Map<String, Boolean> response = new HashMap<>();
+//        response.put("delete", Boolean.TRUE);
+//        return ResponseEntity.ok(response);
+//    }
+
+        // delete employees by id - version 2
+    @DeleteMapping("/employees/{id}")
+    public ResponseEntity<Long> deleteEmployee(@PathVariable Long id) {
+        Employee employee = employeeRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Employee ID not found:" + id));
+
+        employeeRepository.delete(employee);
+        return new ResponseEntity<>(id, HttpStatus.NO_CONTENT);
+    }
 
 }
