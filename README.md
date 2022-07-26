@@ -1,9 +1,5 @@
+<!-- PROJECT START -->
 <div id="top"></div>
-<!-- PROJECT SHIELDS -->
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
@@ -14,12 +10,15 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
+
+
+<!-- TABLE OF CONTENTS --> 
+todo：不會跳過去
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table of Contents（快速到達）</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#About The Project（專案說明）">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -27,95 +26,116 @@
     <li>
       <a href="#getting-started">Getting Started</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#Contact">Contact</a></li>
+
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project（專案說明）
 
 [![Product Name Screen Shot][product-screenshot]](https://employee-manage-system-jack.herokuapp.com/)
 
-這是一個員工管理系統，可以做到新增、刪除、編輯、查詢員工等功能
+This is an employee management system（這是一個員工管理系統）
 
-已經部署至 Heroku：https://employee-manage-system-jack.herokuapp.com/
+This website could add、delete、edit、check employee（可以做到新增、刪除、編輯、查詢員工等功能）
 
-（第一次載入會讀取比較久，載入員工資料需要一些時間，也可直接查看下方 GIF 功能展示）
+Deploy to Heroku（部署至 Heroku)：https://employee-manage-system-jack.herokuapp.com/
+
+When you first time loading will take some time, you could direct check GIF on below
+（第一次載入會讀取比較久，也可直接查看下方 GIF）
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-### Built With
+### Built With（搭建）
 
 * [![React][React.js]][React-url]
 * [![SpringBoot][SpringBoot]][SpringBoot-url]
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started 功能展示（增、刪、改、查 網站圖）
+## Getting Started（使用方式） 
+<br>
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+![Create employee][create-employee-screenshot]
+<p align="middle">create employee（增加員工）</p><br>
 
+![Read employee][read-employee-screenshot]
+<p align="middle">read employee（查詢員工）</p><br>
 
-<!-- USAGE EXAMPLES -->
-## Usage 功能展示（API圖 跟增、刪、改、查 postman圖）
+![Update employee][update-employee-screenshot]
+<p align="middle">update employee（更新員工）</p><br>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+![Delete employee][delete-employee-screenshot]
+<p align="middle">delete employee（刪除員工）</p> 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
-## Roadmap 框架圖
+## Roadmap（框架圖）
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+todo：待補
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+![Restapi list][restapi-list-url]
+<p align="middle">restful api list（api 文檔）</p><br>
+
+![Restapi get][restapi-get-url]
+<p align="middle">get（獲取全部員工）</p><br>
+
+![Restapi post][restapi-post-url]
+<p align="middle">post（新增員工）</p><br>
+
+![Restapi get id][restapi-getId-url]
+<p align="middle">get by id（獲取特定員工）</p><br>
+
+![Restapi put][restapi-put-url]
+<p align="middle">put（更新員工）</p><br>
+
+![Restapi delete][restapi-delete-url]
+<p align="middle">delete（刪除員工）</p><br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing 感謝
+## Contributing（感謝）
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Give credit to these kind men, help me a lot（特此感謝好心人士的免費教學，幫助我許多）
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+[@Java Guides](https://www.youtube.com/watch?v=n43h1eJ2EUE&list=PLGRDMO4rOGcNLnW1L2vgsExTBg-VPoZHr)
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+[@Anuj Kumar](https://www.youtube.com/watch?v=ZZ1hrSSbKZw)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+
 <!-- CONTACT -->
-## Contact 聯絡方式
+## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Author（作者）： Jack Chang
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Email（電子信箱 ）：angel800114@gmail.com
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+Project Link（專案連結）: [employee_management_system_springboot_backend](https://github.com/richjack888/employee_management_system_springboot_backend)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -130,3 +150,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [React-url]: https://reactjs.org/
 [SpringBoot]: https://img.shields.io/badge/SpringBoot-0769AD?style=for-the-badge&logo=SpringBoot&logoColor=white
 [SpringBoot-url]: https://spring.io
+[create-employee-screenshot]: https://imgur.com/ZUVGrdr.gif
+[read-employee-screenshot]: https://imgur.com/dvuPyC2.gif
+[update-employee-screenshot]: https://imgur.com/elER91o.gif
+[delete-employee-screenshot]: https://imgur.com/qn5EylF.gif
+[restapi-list-url]: images/restapi_list.PNG
+[restapi-get-url]: https://imgur.com/4m1JeBs.gif
+[restapi-post-url]: https://imgur.com/r9ff0AM.gif
+[restapi-getId-url]: https://imgur.com/bp1VxNd.gif
+[restapi-put-url]: https://imgur.com/fI1mThw.gif
+[restapi-delete-url]: https://imgur.com/4qtiBEW.gif
