@@ -89,19 +89,20 @@ The main part of code is in（主要的功能實做位於）: `src/main/java/com
 
 
 <!-- GETTING STARTED -->
-TODO：最後兩張圖片不出來
 ## Getting Started（使用方式）
-![Create employee][create-employee-screenshot]
-<p align="middle">create employee（增加員工）</p><br>
 
-![Query employee][query-employee-screenshot]
-<p align="middle">query employee（查詢員工）</p><br>
 
 ![Update employee][update-employee-screenshot]
 <p align="middle">update employee（更新員工）</p><br>
 
 ![Delete employee][delete-employee-screenshot]
-<p align="middle">delete employee（刪除員工）</p> 
+<p align="middle">delete employee（刪除員工）</p>
+
+![Create employee][create-employee-screenshot]
+<p align="middle">create employee（增加員工）</p><br>
+
+![Query employee][query-employee-screenshot]
+<p align="middle">query employee（查詢員工）</p><br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -114,19 +115,19 @@ TODO：最後兩張圖片不出來
 <p align="middle">restful api list（api 文檔）</p><br>
 
 ![Restapi get][restapi-get-url]
-<p align="middle">get（獲取全部員工）</p><br>
+<p align="middle">get employee（獲取全部員工）</p><br>
 
 ![Restapi post][restapi-post-url]
-<p align="middle">post（新增員工）</p><br>
+<p align="middle">post employee（新增員工）</p><br>
 
 ![Restapi get id][restapi-getId-url]
-<p align="middle">get by id（獲取特定員工）</p><br>
+<p align="middle">get employee by id（獲取特定員工）</p><br>
 
 ![Restapi put][restapi-put-url]
-<p align="middle">put（更新員工）</p><br>
+<p align="middle">put employee（更新員工）</p><br>
 
 ![Restapi delete][restapi-delete-url]
-<p align="middle">delete（刪除員工）</p><br>
+<p align="middle">delete employee（刪除員工）</p><br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
