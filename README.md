@@ -167,8 +167,8 @@ Project Link（專案連結）: [employee_management_system_springboot_backend](
 [SpringBoot-url]: https://spring.io
 [create-employee-url]: https://imgur.com/ZUVGrdr.gif
 [query-employee-url]: https://imgur.com/dvuPyC2.gif
-[update-employee-url]: https://imgur.com/UmduRxC.gif
-[delete-employee-url]: https://imgur.com/XiGlHjt.gif
+[update-employee-url]: https://imgur.com/zdo0qHI.gif
+[delete-employee-url]: https://imgur.com/3MDsWO3.gif
 [architecture-url]: images/Architecture2.png
 [restapi-list-url]: images/restapi_list.PNG
 [restapi-get-url]: https://imgur.com/4m1JeBs.gif
