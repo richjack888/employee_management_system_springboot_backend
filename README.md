@@ -14,7 +14,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents（直接瀏覽）</summary>
+  <summary>Table of Contents（瀏覽各章節）</summary>
   <ol>
     <li>
       <a href="#about-the-project專案說明">About The Project（專案說明）</a>
@@ -31,7 +31,6 @@
 
   </ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -51,7 +50,7 @@ Deploy to Heroku（部署至 Heroku)：https://employee-manage-system-jack.herok
 
 When the first time loading takes some time, you could directly check the GIF below
 
-（第一次載入會需要一點時間，你可以直接查看下方 GIF 的功能展示）
+（第一次載入會需要一點時間，您可以直接查看下方 GIF 的功能展示）
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -64,7 +63,7 @@ When the first time loading takes some time, you could directly check the GIF be
 
 ![Architecture][architecture-url]
 
-Server-side tools and technologies used：
+Server-side tools and technologies used（後端伺服器使用下列工具）：
 * Spring Boot 2 +
 * SpringData JPA ( Hibernate)
 * Maven 3.2 +
@@ -72,7 +71,7 @@ Server-side tools and technologies used：
 * Embedded Tomcat 8.5+
 * MySQL Database
 
-Client-side tools and technologies used：
+Client-side tools and technologies used（前端客戶端使用下列工具）：
 
 * React
 * Modern JavaScript (ES6)
@@ -83,14 +82,14 @@ Client-side tools and technologies used：
 This project only provides the backend part（本專案僅提供後端的程式碼）
 
 The main part of code is in（主要的功能實做位於）: `src/main/java/com/example/springbootbackend`
-[Click to jump in（點擊跳轉）](https://github.com/richjack888/employee_management_system_springboot_backend/tree/master/src/main/java/com/example/springbootbackend)
+[Click to jump in（點此跳轉）](https://github.com/richjack888/employee_management_system_springboot_backend/tree/master/src/main/java/com/example/springbootbackend)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-
+TODO：最後兩張圖片不出來
 ## Getting Started（使用方式）
 ![Create employee][create-employee-screenshot]
 <p align="middle">create employee（增加員工）</p><br>
@@ -168,10 +167,10 @@ Project Link（專案連結）: [employee_management_system_springboot_backend](
 [React-url]: https://reactjs.org/
 [SpringBoot]: https://img.shields.io/badge/SpringBoot-0769AD?style=for-the-badge&logo=SpringBoot&logoColor=white
 [SpringBoot-url]: https://spring.io
-[create-employee-screenshot]: https://imgur.com/ZUVGrdr.gif
-[query-employee-screenshot]: https://imgur.com/dvuPyC2.gif
 [update-employee-screenshot]: https://imgur.com/elER91o.gif
 [delete-employee-screenshot]: https://imgur.com/qn5EylF.gif
+[create-employee-screenshot]: https://imgur.com/ZUVGrdr.gif
+[query-employee-screenshot]: https://imgur.com/dvuPyC2.gif
 [architecture-url]: images/Architecture2.png
 [restapi-list-url]: images/restapi_list.PNG
 [restapi-get-url]: https://imgur.com/4m1JeBs.gif
