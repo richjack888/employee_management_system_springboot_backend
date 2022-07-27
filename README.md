@@ -98,7 +98,7 @@ The main part of code is in（主要的功能實做位於）: `src/main/java/com
 ![Update employee][update-employee-url]
 <p align="middle">update employee（更新員工）</p><br>
 
-![Delete employee][create-employee-url]
+![Delete employee][delete-employee-url]
 <p align="middle">delete employee（刪除員工）</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -167,8 +167,8 @@ Project Link（專案連結）: [employee_management_system_springboot_backend](
 [SpringBoot-url]: https://spring.io
 [create-employee-url]: https://imgur.com/ZUVGrdr.gif
 [query-employee-url]: https://imgur.com/dvuPyC2.gif
-[update-employee-url]: https://imgur.com/elER91o.gif
-[delete-employee-url]: https://imgur.com/qn5EylF.gif
+[update-employee-url]: https://imgur.com/dvuPyC2.gif
+[delete-employee-url]: https://imgur.com/dvuPyC2.gif
 [architecture-url]: images/Architecture2.png
 [restapi-list-url]: images/restapi_list.PNG
 [restapi-get-url]: https://imgur.com/4m1JeBs.gif
