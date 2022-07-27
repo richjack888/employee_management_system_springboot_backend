@@ -165,10 +165,10 @@ Project Link（專案連結）: [employee_management_system_springboot_backend](
 [React-url]: https://reactjs.org/
 [SpringBoot]: https://img.shields.io/badge/SpringBoot-0769AD?style=for-the-badge&logo=SpringBoot&logoColor=white
 [SpringBoot-url]: https://spring.io
-[create-employee-url]: https://imgur.com/elER91o.gif
-[query-employee-url]: https://imgur.com/qn5EylF.gif
-[update-employee-url]: https://imgur.com/dvuPyC2.gif
-[delete-employee-url]: https://imgur.com/dvuPyC2.gif
+[create-employee-url]: https://imgur.com/ZUVGrdr.gif
+[query-employee-url]: https://imgur.com/dvuPyC2.gif
+[update-employee-url]: https://imgur.com/UmduRxC.gif
+[delete-employee-url]: https://imgur.com/XiGlHjt.gif
 [architecture-url]: images/Architecture2.png
 [restapi-list-url]: images/restapi_list.PNG
 [restapi-get-url]: https://imgur.com/4m1JeBs.gif
