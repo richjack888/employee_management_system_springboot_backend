@@ -90,15 +90,15 @@ The main part of code is in（主要的功能實做位於）: `src/main/java/com
 ## Getting Started（使用方式）
 
 ![Create employee][create-employee-url]
-<p align="middle">create employee（增加員工）</p>
+<p align="middle">create employee（增加員工）</p><br>
 
 ![Query employee][query-employee-url]
-<p align="middle">query employee（查詢員工）</p>
+<p align="middle">query employee（查詢員工）</p><br>
 
 ![Update employee][update-employee-url]
-<p align="middle">update employee（更新員工）</p>
+<p align="middle">update employee（更新員工）</p><br>
 
-![Delete employee][delete-employee-url]
+![Delete employee][create-employee-url]
 <p align="middle">delete employee（刪除員工）</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
