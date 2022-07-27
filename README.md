@@ -1,10 +1,8 @@
 <!-- PROJECT START -->
 <div id="top"></div>
-<br />
+
 <div align="center">
-
 <h3 align="center">Employee-Management-System</h3>
-
   <p align="center">
     <a href="https://employee-manage-system-jack.herokuapp.com/">View Website（瀏覽網站）</a>
   </p>
@@ -31,7 +29,7 @@
 
   </ol>
 </details>
-
+<br>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project（專案說明）
@@ -82,7 +80,7 @@ Client-side tools and technologies used（前端客戶端使用下列工具）�
 This project only provides the backend part（本專案僅提供後端的程式碼）
 
 The main part of code is in（主要的功能實做位於）: `src/main/java/com/example/springbootbackend`
-[Click to jump in（點此跳轉）](https://github.com/richjack888/employee_management_system_springboot_backend/tree/master/src/main/java/com/example/springbootbackend)
+[Click here to jump in（點此跳轉）](https://github.com/richjack888/employee_management_system_springboot_backend/tree/master/src/main/java/com/example/springbootbackend)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,18 +89,17 @@ The main part of code is in（主要的功能實做位於）: `src/main/java/com
 <!-- GETTING STARTED -->
 ## Getting Started（使用方式）
 
-
-![Update employee][update-employee-screenshot]
-<p align="middle">update employee（更新員工）</p><br>
-
-![Delete employee][delete-employee-screenshot]
-<p align="middle">delete employee（刪除員工）</p>
-
-![Create employee][create-employee-screenshot]
+![Create employee][create-employee-url]
 <p align="middle">create employee（增加員工）</p><br>
 
-![Query employee][query-employee-screenshot]
+![Query employee][query-employee-url]
 <p align="middle">query employee（查詢員工）</p><br>
+
+![Update employee][update-employee-url]
+<p align="middle">update employee（更新員工）</p><br>
+
+![Delete employee][delete-employee-url]
+<p align="middle">delete employee（刪除員工）</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -168,10 +165,10 @@ Project Link（專案連結）: [employee_management_system_springboot_backend](
 [React-url]: https://reactjs.org/
 [SpringBoot]: https://img.shields.io/badge/SpringBoot-0769AD?style=for-the-badge&logo=SpringBoot&logoColor=white
 [SpringBoot-url]: https://spring.io
-[update-employee-screenshot]: https://imgur.com/elER91o.gif
-[delete-employee-screenshot]: https://imgur.com/qn5EylF.gif
-[create-employee-screenshot]: https://imgur.com/ZUVGrdr.gif
-[query-employee-screenshot]: https://imgur.com/dvuPyC2.gif
+[create-employee-url]: https://imgur.com/ZUVGrdr.gif
+[query-employee-url]: https://imgur.com/dvuPyC2.gif
+[update-employee-url]: https://imgur.com/elER91o.gif
+[delete-employee-url]: https://imgur.com/qn5EylF.gif
 [architecture-url]: images/Architecture2.png
 [restapi-list-url]: images/restapi_list.PNG
 [restapi-get-url]: https://imgur.com/4m1JeBs.gif
