@@ -6,29 +6,28 @@
 <h3 align="center">Employee-Management-System</h3>
 
   <p align="center">
-    <a href="https://employee-manage-system-jack.herokuapp.com/">View Website</a>
+    <a href="https://employee-manage-system-jack.herokuapp.com/">View Website（瀏覽網站）</a>
   </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS --> 
-todo：不會跳過去
+<!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents（快速到達）</summary>
+  <summary>Table of Contents（直接瀏覽）</summary>
   <ol>
     <li>
       <a href="#About The Project（專案說明）">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Built With（搭建）">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Getting Started（使用方式）">Getting Started</a>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#Contact">Contact</a></li>
+    <li><a href="#RESTful API">Roadmap</a></li>
+    <li><a href="#Appreciate（特別感謝）">Contributing</a></li>
+    <li><a href="#Contact（聯絡方式）">Contact</a></li>
 
   </ol>
 </details>
@@ -40,14 +39,19 @@ todo：不會跳過去
 
 [![Product Name Screen Shot][product-screenshot]](https://employee-manage-system-jack.herokuapp.com/)
 
-This is an employee management system（這是一個員工管理系統）
+This website is an employee management system
 
-This website could add、delete、edit、check employee（可以做到新增、刪除、編輯、查詢員工等功能）
+（這是一個員工管理系統的網站）
+
+Could help you manage employees with add、delete、edit、query employee
+
+（可以幫助您管理員工透過新增、刪除、編輯、查詢員工等功能）
 
 Deploy to Heroku（部署至 Heroku)：https://employee-manage-system-jack.herokuapp.com/
 
-When you first time loading will take some time, you could direct check GIF on below
-（第一次載入會讀取比較久，也可直接查看下方 GIF）
+When the first time loading takes some time, you could directly check the GIF below
+
+（第一次載入會需要一點時間，你可以直接查看下方 GIF 的功能展示）
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -58,19 +62,39 @@ When you first time loading will take some time, you could direct check GIF on b
 * [![React][React.js]][React-url]
 * [![SpringBoot][SpringBoot]][SpringBoot-url]
 
+![Architecture][architecture-url]
+
+Server-side tools and technologies used：
+* Spring Boot 2 +
+* SpringData JPA ( Hibernate)
+* Maven 3.2 +
+* JDK 1.8
+* Embedded Tomcat 8.5+
+* MySQL Database
+
+Client-side tools and technologies used：
+
+* React
+* Modern JavaScript (ES6)
+* NodeJS and NPM
+* Intellij IDE
+* Create React App CLI
+* Bootstrap 4.5 and Axios HTTP Library
+
+The main part of code is in（主要的功能位於）: `src/main/java/com/example/springbootbackend`
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started（使用方式） 
-<br>
-
+## Getting Started（使用方式）
 ![Create employee][create-employee-screenshot]
 <p align="middle">create employee（增加員工）</p><br>
 
 ![Read employee][read-employee-screenshot]
-<p align="middle">read employee（查詢員工）</p><br>
+<p align="middle">query employee（查詢員工）</p><br>
 
 ![Update employee][update-employee-screenshot]
 <p align="middle">update employee（更新員工）</p><br>
@@ -82,10 +106,8 @@ When you first time loading will take some time, you could direct check GIF on b
 
 
 
-<!-- ROADMAP -->
-## Roadmap（框架圖）
-
-todo：待補
+<!-- RESTFUL API -->
+## RESTful API
 
 ![Restapi list][restapi-list-url]
 <p align="middle">restful api list（api 文檔）</p><br>
@@ -109,10 +131,10 @@ todo：待補
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing（感謝）
+<!-- APPRECIATE -->
+## Appreciate（特別感謝）
 
-Give credit to these kind men, help me a lot（特此感謝好心人士的免費教學，幫助我許多）
+Give credit to these kind men, help me a lot（非常感謝好心人士的無償教學）
 
 [@Java Guides](https://www.youtube.com/watch?v=n43h1eJ2EUE&list=PLGRDMO4rOGcNLnW1L2vgsExTBg-VPoZHr)
 
@@ -125,13 +147,13 @@ Give credit to these kind men, help me a lot（特此感謝好心人士的免費
 
 
 <!-- CONTACT -->
-## Contact
+## Contact（聯絡方式）
 
-Author（作者）： Jack Chang
+Author（作者）： Jack Chang [![LinkedIn][linkedin-shield]][linkedin-url]
 
 Email（電子信箱 ）：angel800114@gmail.com
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 Project Link（專案連結）: [employee_management_system_springboot_backend](https://github.com/richjack888/employee_management_system_springboot_backend)
 
@@ -154,6 +176,7 @@ Project Link（專案連結）: [employee_management_system_springboot_backend](
 [read-employee-screenshot]: https://imgur.com/dvuPyC2.gif
 [update-employee-screenshot]: https://imgur.com/elER91o.gif
 [delete-employee-screenshot]: https://imgur.com/qn5EylF.gif
+[architecture-url]: images/Architecture2.png
 [restapi-list-url]: images/restapi_list.PNG
 [restapi-get-url]: https://imgur.com/4m1JeBs.gif
 [restapi-post-url]: https://imgur.com/r9ff0AM.gif
