@@ -129,7 +129,7 @@ The main functions of code are in（主要的功能實做位於）: `src/main/ja
 <p align="middle">put employee（更新員工）</p><br>
 
 ![Restapi delete][restapi-delete-url]
-<p align="middle">delete employee（刪除員工）</p><
+<p align="middle">delete employee（刪除員工）</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
