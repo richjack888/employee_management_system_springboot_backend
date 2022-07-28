@@ -40,7 +40,7 @@ This website is an employee management system
 
 （這是一個員工管理系統的網站）
 
-Could help you manage employees with add、delete、edit、query employee
+Could help you manage employees with add、delete、update、query employee
 
 （可以幫助您管理員工透過新增、刪除、編輯、查詢員工等功能）
 
@@ -77,9 +77,14 @@ Client-side tools and technologies used（前端客戶端使用下列工具）�
 * Create React App CLI
 * Bootstrap 4.5 and Axios HTTP Library
 
-This project only provides the backend part（本專案僅提供後端的程式碼）
+***
 
-The main part of code is in（主要的功能實做位於）: `src/main/java/com/example/springbootbackend`
+This project is built with the front-end and back-end separation framework（網站搭建使用了前後端分離框架）
+
+This repository only provides the backend part（本專案僅提供後端的程式碼）
+
+The main functions of code are in（主要的功能實做位於）: `src/main/java/com/example/springbootbackend`
+
 [Click here to jump in（點此跳轉）](https://github.com/richjack888/employee_management_system_springboot_backend/tree/master/src/main/java/com/example/springbootbackend)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -124,7 +129,7 @@ The main part of code is in（主要的功能實做位於）: `src/main/java/com
 <p align="middle">put employee（更新員工）</p><br>
 
 ![Restapi delete][restapi-delete-url]
-<p align="middle">delete employee（刪除員工）</p><br>
+<p align="middle">delete employee（刪除員工）</p><
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -133,7 +138,7 @@ The main part of code is in（主要的功能實做位於）: `src/main/java/com
 <!-- APPRECIATE -->
 ## Appreciate（特別感謝）
 
-Give all my credit to these kind men, help me a lot（非常感謝好心人士的熱心教學，惠我良多）
+Give all credits to these kind men, help me a lot（非常感謝這些好心人士的熱心教學，惠我良多）
 
 [@Java Guides](https://www.youtube.com/watch?v=n43h1eJ2EUE&list=PLGRDMO4rOGcNLnW1L2vgsExTBg-VPoZHr)
 
