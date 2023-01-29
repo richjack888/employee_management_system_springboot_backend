@@ -41,11 +41,7 @@ Could help you manage employees with add、delete、update、query employee
 
 （可以幫助您管理員工透過新增、刪除、編輯、查詢員工等功能）
 
-Deploy to Heroku（部署至 Heroku)：由於 Heroku 近期取消免費方案，請直接參閱下方GIF圖檔
-
-When the first time loading takes some time, you could directly check the GIF below
-
-（第一次載入會需要一點時間，您可以直接查看下方 GIF 的功能展示）
+Deploy to Heroku（部署至 Heroku)：由於 Heroku 近期取消免費方案，請直接參閱下方 GIF 圖檔
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
