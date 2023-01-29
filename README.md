@@ -3,9 +3,6 @@
 
 <div align="center">
 <h3 align="center">Employee-Management-System</h3>
-  <p align="center">
-    <a href="https://employee-manage-system-jack.herokuapp.com/">View Website（瀏覽網站）</a>
-  </p>
 </div>
 
 
@@ -44,7 +41,7 @@ Could help you manage employees with add、delete、update、query employee
 
 （可以幫助您管理員工透過新增、刪除、編輯、查詢員工等功能）
 
-Deploy to Heroku（部署至 Heroku)：https://employee-manage-system-jack.herokuapp.com/
+Deploy to Heroku（部署至 Heroku)：由於 Heroku 近期取消免費方案，請直接參閱下方GIF圖檔
 
 When the first time loading takes some time, you could directly check the GIF below
 
@@ -153,7 +150,7 @@ Give all credits to these kind men, help me a lot（非常感謝這些好心人�
 
 Author（作者）： Jack Chang [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Email（電子信箱 ）：angel800114@gmail.com
+Email（電子信箱 ）：poordog777@gmail.com
 
 Project Link（專案連結）: [employee_management_system_springboot_backend](https://github.com/richjack888/employee_management_system_springboot_backend)
 
